@@ -1,0 +1,19 @@
+{
+  "name": "ng-test-run",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jksmall0631/ng-test-run.git"
+  },
+  "author": "Joshua Small <jksmall0631@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jksmall0631/ng-test-run/issues"
+  },
+  "homepage": "https://github.com/jksmall0631/ng-test-run#readme"
+}
