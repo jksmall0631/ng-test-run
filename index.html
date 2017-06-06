@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html ng-app="AngularTestRun">
+<html>
   <head>
     <title>NG List</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-    <script src="./controllers/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-route.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale = 1, user-scalable = true">
   </head>
-  <body>
-    <div></div>
+  <body ng-app='AngularTestRun'>
+    <div ng-controller='AppController'>
+      <div ng-repeat='todo in todos'>
+        {{todo.text}}
+      </div>
+    </div>
+    <script src="./lib/app.js"></script>
+    <script src="./lib/controllers/main.js"></script>
   </body>
 </html>
